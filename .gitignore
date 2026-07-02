@@ -1,0 +1,17 @@
+# Bỏ qua các file rác của Visual Studio / Hệ điều hành
+.vs/
+.vscode/
+*.user
+*.suo
+.DS_Store
+
+# Bỏ qua các thư mục build nặng của Backend (.NET)
+bin/
+obj/
+appsettings.Development.json
+appsettings.json
+
+# Bỏ qua thư viện của Frontend (React)
+node_modules/
+dist/
+.env
